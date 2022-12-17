@@ -43,7 +43,7 @@
     display: none;
 }
 
-.gallery {
+.gallery-wrap {
     width: 1200px;
     display: flex;
     flex-wrap: wrap;
@@ -102,4 +102,9 @@ img {
     cursor: pointer;
     box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.1);
     background-color: rgb(117, 117, 241);
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
 }

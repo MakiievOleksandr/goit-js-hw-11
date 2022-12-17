@@ -38,7 +38,9 @@ function onSearchBtn(evt) {
       } else if (data.totalHits < imageService.perPage) {
         renderGallery(data.hits);
         loadMoreBtn.hide();
-        Notiflix.Notify.info('THATS ALL!!!');
+        Notiflix.Notify.info(
+          `Hooray! We found ${imageService.totalHits} images. But thats all!`
+        );
       } else {
         renderGallery(data.hits);
         Notiflix.Notify.success(
