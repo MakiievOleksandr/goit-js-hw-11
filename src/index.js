@@ -2,8 +2,6 @@ import ImageServiceAPI from './API-service';
 import LoadMoreBtn from './load-more-btn';
 import Notiflix from 'notiflix';
 import { imageCardMarkup } from './murkup';
-import SimpleLightbox from 'simplelightbox';
-import 'simplelightbox/dist/simple-lightbox.min.css';
 
 const refs = {
   formEl: document.querySelector('#search-form'),
