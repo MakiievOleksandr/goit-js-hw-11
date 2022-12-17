@@ -8,8 +8,8 @@ export default class ImageService {
   constructor() {
     this.searchQuery = '';
     this.page = 1;
-    this.perPage = 10;
-    this.totalHits = 30;
+    this.perPage = 40;
+    this.totalHits = 500;
   }
 
   async fetchImages() {
