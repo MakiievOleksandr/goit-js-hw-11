@@ -94,13 +94,12 @@ img {
     color: white;
     font-size: 18px;
     font-weight: 600;
-    background-color: rgb(117, 117, 241);
-    ;
+    background-color: rgb(184, 184, 239);
 }
 
 .load-more:hover,
 .load-more:focus {
     cursor: pointer;
     box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.1);
-    background-color: rgb(184, 184, 239)
+    background-color: rgb(117, 117, 241);
 }

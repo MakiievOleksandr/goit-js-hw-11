@@ -9,7 +9,7 @@ export default class ImageService {
     this.searchQuery = '';
     this.page = 1;
     this.perPage = 40;
-    this.totalHits = 500;
+    this.totalHits = 0;
   }
 
   async fetchImages() {
