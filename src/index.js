@@ -64,6 +64,8 @@ function onLoadMoreBtn(evt) {
     const totalPages = imageService.totalHits / imageService.perPage;
 
     if (totalPages <= imageService.page) {
+      renderGallery(data.hits);
+
       Notiflix.Notify.info(
         "We're sorry, but you've reached the end of search results."
       );
